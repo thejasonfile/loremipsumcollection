@@ -49,3 +49,52 @@ span {
 .iconlist {
 	list-style: none;
 }
+
+@media (max-width: 1527px) {
+	h1 {
+		font-size: 6em;
+	}
+
+	body {
+		background-color: red;
+	}
+}
+
+@media (max-width: 1300px) {
+
+	.content {
+		margin-left: 0;
+	}
+
+	#icons {
+		top: 15em;
+	}
+
+	#iconlist1, #iconslist2 {
+		width: 100%;
+	}
+
+	span {
+		margin-top: 0;
+		display: inline-block;
+		margin-left: 10em;
+	}
+
+	body {
+		background-color: green;
+	}
+};
+
+@media (max-width: 990px) {
+	h1 {
+		font-size: 4em;
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+
+	body {
+		background-color: yellow;
+	}
+};
