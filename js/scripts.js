@@ -1,6 +1,9 @@
 var xhr, textfile;
-	
 
+//set height for icons div
+$("#icons").css("height", $(window).height());
+
+//AJAX calls for content
 	function getFile(textfile) {
 		xhr = new XMLHttpRequest();
 		xhr.onreadystatechange = function() {
@@ -11,6 +14,3 @@ var xhr, textfile;
 		xhr.open("GET",textfile);
 		xhr.send();
 	}
-
-
-//document.getElementById("loremBtn").onclick = getFile("lorem.html");

@@ -10,18 +10,24 @@
 <body>
 
 	<div id="icons">
-		<button onclick="getFile('bacon.html')">Bacon</button>
-		<button onclick="getFile('cat.html')">Cat</button>
-		<button onclick="getFile('cheese.html')">Cheese</button>
-		<button onclick="getFile('heisenberg.html')">Heisenberg</button>
-		<button onclick="getFile('hipster.html')">Hipster</button>
-		<button onclick="getFile('hodor.html')">Hodor</button>
-		<button onclick="getFile('lorem.html')">Lorem</button>
-		<button onclick="getFile('pirate.html')">Pirate</button>
-		<button onclick="getFile('riker.html')">Riker</button>
-		<button onclick="getFile('sagan.html')">Sagan</button>
+		<ul id="iconlist">
+			<li><a href="#"><img src="images/bacon.jpg" onclick="getFile('bacon.html')"></a></li>
+			<li><a href="#"><img src="images/cat.png" onclick="getFile('cat.html')"></a></li>
+			<li><a href="#"><img src="images/cheese.png" onclick="getFile('cheese.html')"></a></li>
+			<li><a href="#"><img src="images/heisenberg.png" onclick="getFile('heisenberg.html')"></a></li>
+			<li><a href="#"><img src="images/hipster.png" onclick="getFile('hipster.html')"></a></li>
+			<li><a href="#"><img src="images/hodor.jpg" onclick="getFile('hodor.html')"></a></li>
+			<li><a href="#"><img src="images/lorem.jpg" onclick="getFile('lorem.html')"></a></li>
+			<li><a href="#"><img src="images/pirate.png" onclick="getFile('pirate.html')"></a></li>
+			<li><a href="#"><img src="images/riker.jpg" onclick="getFile('riker.html')"></a></li>
+			<li><a href="#"><img src="images/sagan.jpg" onclick="getFile('sagan.html')"></a></li>
+		</ul>
 	</div>
-	<div id="loremText"></div>
+	<div id="text">
+		<div id="title"><h1>Lorem Ipsum...</h1></div>
+		<div id="subtitle"><h2>A collection of some of my favorite Lorem Ipsum texts.</h2></div>
+		<div id="loremText"></div>
+	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>

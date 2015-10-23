@@ -1,3 +1,17 @@
 body {
 	background-color: rgba(83, 189, 255, 1);
 }
+
+#icons, #iconlist, #text {
+	display: inline-block;
+}
+
+#iconlist {
+	height: 90%;
+	list-style: none;
+	overflow: auto;
+}
+
+#text {
+	
+}
