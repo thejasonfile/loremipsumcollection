@@ -1,17 +1,51 @@
+@font-face {
+	font-family: Greek;
+	src: url("../font/heorot.ttf") format('truetype');
+}
+
 body {
 	background-color: rgba(83, 189, 255, 1);
 }
 
-#icons, #iconlist, #text {
+h1 {
+	font-family: Greek;
+	font-size: 8em;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0.5em;
+}
+
+h2 {
+	text-align: center;
+}
+
+span {
+	margin-top: 1em;
+	font-size: 1.5em;
+}
+
+.wrapper {
+	padding: 2em;
+	max-width: 80%;
+	margin: 0 auto;
+	position: relative;
+	min-height: 40em;
+}
+
+.content {
+	margin-left: 400px;
+}
+
+#icons {
+	position: absolute;
+  	width: 350px;
+  	top: 2em;
+}
+
+#iconlist1, #iconlist2 {
 	display: inline-block;
 }
 
-#iconlist {
-	height: 90%;
+.iconlist {
 	list-style: none;
-	overflow: auto;
-}
-
-#text {
-	
 }
