@@ -65,11 +65,19 @@ span {
 	}
 
 	#icons {
-		top: 15em;
+		top: 16em;
 	}
 
 	#iconlist1, #iconslist2 {
 		width: 100%;
+	}
+
+	#iconlist1 > .iconlist {
+		margin-bottom: 0;
+	}
+
+	#iconlist2 > .iconlist {
+		margin-top: 0;
 	}
 
 	span {
@@ -94,7 +102,7 @@ span {
 	}
 
 	#icons {
-		top: 12em;
+		top: 9.5em;
 		left: -2em;
 	}
 
