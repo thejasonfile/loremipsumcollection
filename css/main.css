@@ -30,6 +30,7 @@ span {
 	margin: 0 auto;
 	position: relative;
 	min-height: 40em;
+	min-width: 400px;
 }
 
 .content {
@@ -50,17 +51,14 @@ span {
 	list-style: none;
 }
 
+
 @media (max-width: 1527px) {
 	h1 {
 		font-size: 6em;
 	}
-
-	body {
-		background-color: red;
-	}
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1280px) {
 
 	.content {
 		margin-left: 0;
@@ -79,13 +77,14 @@ span {
 		display: inline-block;
 		margin-left: 10em;
 	}
+}
 
-	body {
-		background-color: green;
-	}
-};
 
 @media (max-width: 990px) {
+	.wrapper {
+		padding: 0.5em;
+	}
+
 	h1 {
 		font-size: 4em;
 	}
@@ -94,7 +93,17 @@ span {
 		font-size: 1em;
 	}
 
-	body {
-		background-color: yellow;
+	#icons {
+		top: 12em;
+		left: -2em;
 	}
-};
+
+	span {
+		font-size: 1em;
+		margin-left: 10em;
+	}
+}
+
+
+
+
